@@ -6,7 +6,7 @@ import static org.testng.Assert.*;
 
 public class CashbackHackServiceTest {
     @Test
-    void accrualCachback1 () {
+    void accrualCachback1() {
         CashbackHackService cashbackHackService = new CashbackHackService();
         int amount = 1500;
         int actual = cashbackHackService.remain(amount);
@@ -17,7 +17,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    void accrualCachback2 () {
+    void accrualCachback2() {
         CashbackHackService cashbackHackService = new CashbackHackService();
         int amount = 900;
         int actual = cashbackHackService.remain(amount);
@@ -28,7 +28,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    void accrualCachback3 () {
+    void accrualCachback3() {
         CashbackHackService cashbackHackService = new CashbackHackService();
         int amount = 1000;
         int actual = cashbackHackService.remain(amount);
